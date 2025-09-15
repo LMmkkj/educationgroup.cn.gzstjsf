@@ -82,7 +82,7 @@
             </div>
             <div class="info-row" @click="toggleDetails(index)">
               <span class="label">预约明细:</span>
-              <span class="value">{{ booking.showDetails ? '收起数据' : '展开数据' }}</span>
+              <span class="value">{{ booking.showDetails ? '展开数据' : '展开数据' }}</span>
               <img src="../assets/Arrow_gray.png" alt="箭头" class="detail-arrow-img" :class="{ 'rotated': booking.showDetails }">
             </div>
             
