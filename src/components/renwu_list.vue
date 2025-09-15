@@ -573,7 +573,7 @@ export default {
 
 .label {
   color: #333;
-  min-width: 60px;
+  min-width: 50px;
   flex-shrink: 0;
   font-weight: normal;
   text-align: right;
