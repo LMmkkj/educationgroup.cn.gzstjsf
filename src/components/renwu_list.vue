@@ -515,7 +515,7 @@ export default {
 
 .info-row {
   display: flex;
-  padding: 14px 0;
+  padding: 5px 0;
   font-size: 16px;
   line-height: 1.6;
   border-bottom: 1px solid #f0f0f0;
@@ -603,7 +603,7 @@ export default {
 .detail-row {
   display: flex;
   align-items: center;
-  padding: 14px 0;
+  padding: 5px 0;
   font-size: 14px;
   line-height: 1.4;
   border-bottom: 1px solid #f0f0f0;
@@ -851,7 +851,7 @@ export default {
 /* 移动端默认字体恢复与可读性（覆盖上方局部字号） */
 .app-container,
 .app-container * {
-  font-size: 10px;
-  line-height: 1.0;
+  font-size: 14px;
+  line-height: 1.2;
 }
 </style>
