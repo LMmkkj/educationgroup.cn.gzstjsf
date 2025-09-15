@@ -2,7 +2,7 @@
   "name": "vue3_cli_default",
   "version": "0.0.0",
   "scripts": {
-    "build": "vite build",
+    "build": "node_modules/.bin/vite build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
