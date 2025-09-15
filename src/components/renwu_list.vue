@@ -851,7 +851,7 @@ export default {
 /* 移动端默认字体恢复与可读性（覆盖上方局部字号） */
 .app-container,
 .app-container * {
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: 12px;
+  line-height: 1.4;
 }
 </style>
