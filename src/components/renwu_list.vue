@@ -539,7 +539,7 @@ export default {
 }
 
 .info-row.expandable .label {
-  min-width: 80px;
+  min-width: 50px;
   flex-shrink: 0;
 }
 
@@ -851,7 +851,7 @@ export default {
 /* 移动端默认字体恢复与可读性（覆盖上方局部字号） */
 .app-container,
 .app-container * {
-  font-size: 12px;
-  line-height: 1.4;
+  font-size: 10px;
+  line-height: 1.0;
 }
 </style>
