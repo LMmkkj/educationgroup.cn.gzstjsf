@@ -369,7 +369,7 @@ export default {
 
 <style scoped>
 .app-container {
-  max-width: 375px;
+  max-width: 430px;
   margin: 0 auto;
   background: #f5f5f5;
   min-height: 100vh;
@@ -846,5 +846,12 @@ export default {
   .booking-header {
     padding: 12px;
   }
+}
+
+/* 移动端默认字体恢复与可读性（覆盖上方局部字号） */
+.app-container,
+.app-container * {
+  font-size: 16px;
+  line-height: 1.5;
 }
 </style>
